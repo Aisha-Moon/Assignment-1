@@ -24,7 +24,7 @@ class BankAccount {
         return this.balance;
     }
 
-    AccountInfo() {
+    displayAccountInfo() {
         console.log(`Account Number: ${this.accountNumber}`);
         console.log(`Owner Name: ${this.owner}`);
         console.log(`Balance: ${this.balance} Taka`);
@@ -36,10 +36,10 @@ let account2 = new BankAccount(1002, "Aisha Moon", 600);
 
 account1.deposit(200);
 account1.withdraw(300);
-account1.AccountInfo();
+account1.displayAccountInfo();
 
  console.log();
 
 account2.deposit(100);
 account2.withdraw(800); 
-account2.AccountInfo();
+account2.displayAccountInfo();
