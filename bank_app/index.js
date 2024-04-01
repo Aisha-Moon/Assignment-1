@@ -36,12 +36,10 @@ let account2 = new BankAccount(1002, "Aisha Moon", 600);
 
 account1.deposit(200);
 account1.withdraw(300);
-console.log("Account 1 Balance is:", account1.getBalance());
 account1.AccountInfo();
 
  console.log();
 
 account2.deposit(100);
 account2.withdraw(800); 
-console.log("Account 2 Balance:", account2.getBalance());
 account2.AccountInfo();
