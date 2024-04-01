@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Quick Math Solver</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form id="calculator-form">
+        <div class="form-group">
+          <label for="num1">Number 1:</label>
+          <input type="number" class="form-control" id="num1" placeholder="Enter first number" step="any" required>
+        </div>
+        <div class="form-group">
+            <label for="operation">Operation:</label>
+            <select class="form-control fw-bold" id="operation" required>
+              <option value="+">Addition (+)</option>
+              <option value="-">Subtraction (-)</option>
+              <option value="*">Multiplication (*)</option>
+              <option value="/">Division (/)</option>
+            </select>
+          </div>
+        <div class="form-group">
+          <label for="num2">Number 2:</label>
+          <input type="number" class="form-control" id="num2" placeholder="Enter second number" step="any" required>
+        </div>
+       
+        <button type="submit" class="btn btn-primary">Calculate</button>
+      </form>
+    </div>
+  </div>
+  <div class="row justify-content-center mt-4">
+    <div class="col-md-6">
+      <div id="result" class="alert alert-info text-center" style="display: none;"></div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
