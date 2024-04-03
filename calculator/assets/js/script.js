@@ -18,7 +18,6 @@ calculatorForm.addEventListener('submit', function(event) {
  }
 
 
-
   num1 = parseFloat(num1);
   num2 = parseFloat(num2);
 
@@ -46,7 +45,7 @@ calculatorForm.addEventListener('submit', function(event) {
     return;
   }
 
-  // Display the result
+  // Display the result section
   displayResult('Result: ' + result.toFixed(2), 'alert-success');
 });
 

@@ -6,9 +6,9 @@
   
   body {
     font-family: 'Roboto', sans-serif;
-    background:#ecafec ;
-  }
-  
+    background-color: #cba6b5;
+  } 
+
   .container {
     width: 100vw;
     height: 100vh;
@@ -29,7 +29,6 @@
   }
   
   
-  
   .profile-pic {
     width: 150px; 
     height: 150px;
@@ -38,13 +37,30 @@
     display: block;
   }
   
-  h1, h3 {
+  /* h1, h3 {
     margin: 10px 0; 
     color: #333;
+  } */
+  
+  h1 {
+    margin: 10px 0;
+    color: #333;
+    font-size: 26px; 
+    text-align: center; 
   }
+  
+  h3 {
+    margin: 10px 0 16px 0; 
+    color: #333;
+    font-size: 20px;
+    text-align: center; 
+  }
+  
   
   p {
     margin-bottom: 20px; 
     color: #666;
+    font-size: 16px;
+    line-height: 20px;
   }
   
